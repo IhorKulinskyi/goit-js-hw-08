@@ -12,7 +12,3 @@ player.on(
     localStorage.setItem('videoplayer-current-time', e.seconds);
   }, 1000)
 );
-
-player.getVideoTitle().then(function (title) {
-  console.log('title:', title);
-});
